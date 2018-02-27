@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Polyline (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Polyline (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
+
+PODFILE CHECKSUM: ea8ff40f375b64398eeff0a3d541d12284a1fef4
+
+COCOAPODS: 1.4.0
