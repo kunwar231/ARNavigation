@@ -19,7 +19,6 @@ struct NavigationService {
         
         let appdelegate = UIApplication.shared.delegate as! AppDelegate
         
-        
         if appdelegate.currentLocation == nil
         {
             return
@@ -57,7 +56,7 @@ struct NavigationService {
     //MARK: Get Directions
     func getDirections(origin: String!, destination: String!, travelMode: AnyObject!, completionHandler: @escaping ((_ steps: [routeStep]?, _ success: Bool) -> Void)) {
         
-        webserviceClass.sharedInstance.getGoogleDirections(methodType: 1, urlString: baseURLDirections, parameters: ["origin": origin as AnyObject, "destination": destination as AnyObject, "mode": travelMode as AnyObject, "key":"AIzaSyDfa6IvMbKniGo-6MdEvrgZ6o5Tg-w7QDE" as AnyObject], completion: { (success, response) in
+        webserviceClass.sharedInstance.getGoogleDirections(methodType: 1, urlString: baseURLDirections, parameters: ["origin": origin as AnyObject, "destination": destination as AnyObject, "mode": travelMode as AnyObject, "key":"<google-api-key>" as AnyObject], completion: { (success, response) in
             
             if success == true
             {
