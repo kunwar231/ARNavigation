@@ -1,0 +1,3 @@
+This code is inspired from https://github.com/chriswebb09/ARKitNavigationDemo.
+The above project was made with MKMapkit, which I converted to use with google directions api
+Search for "<google-api-key>" and replace it with your google api key.
